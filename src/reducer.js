@@ -18,3 +18,8 @@ function render() {
   const app = document.querySelector("#app");
   app.textContent = state.count;
 }
+
+dispatch({type: "counter/increment"})
+dispatch({type: "counter/increment"})
+dispatch({type: "counter/increment"})
+dispatch({type: "@@INIT"})
